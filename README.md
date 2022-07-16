@@ -9,5 +9,7 @@
 
 #### Uses @mui/material
 - npm install @mui/material @emotion/react @emotion/styled
+- npm install @mui/icons-material
+
 #### Uses makeStyles for styling (because makeStyles is deprecated, not used in @mui/material so I added tss-react so I can do the same thing as before)
 - npm add tss-react
