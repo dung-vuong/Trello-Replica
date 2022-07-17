@@ -13,3 +13,6 @@
 
 #### Uses makeStyles for styling (because makeStyles is deprecated, not used in @mui/material so I added tss-react so I can do the same thing as before)
 - npm add tss-react
+
+#### Manage the data in local storage
+- Use localStorage.setItem and localStorage.getItem, also useEffect to lead and save the data into the local storage
