@@ -1,4 +1,4 @@
-## Trello Replica Clone
+# Trello Replica Clone
 
 ### Create an exact replica of the following webapp https://trello-replica.web.app/
 ### The following features included:
