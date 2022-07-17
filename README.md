@@ -1,7 +1,7 @@
 ## Trello Replica Clone
 
-#### Create an exact replica of the following webapp https://trello-replica.web.app/
-#### The following features included:
+### Create an exact replica of the following webapp https://trello-replica.web.app/
+### The following features included:
 - Create new list
 - Create new card
 - Drag-n-drop cards between lists
