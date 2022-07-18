@@ -17,3 +17,6 @@
 #### Manage the data in local storage:
 - Use localStorage.setItem and localStorage.getItem.
 - Use UseEffect to load and save the data into the local storage.
+
+#### Use react-beautiful-dnd
+- npm install react-beautiful-dnd
