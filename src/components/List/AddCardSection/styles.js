@@ -7,13 +7,13 @@ export default makeStyles()((theme) => ({
     pageInput: {
         width: '270px',
         backgroundColor: "#ebecf0",
-        padding: theme.spacing(0.5,1,0.5,1),
-        margin: theme.spacing(1),
+        margin: theme.spacing(-0.8,1,0,1),
+        padding: theme.spacing(0.5),
     },
     addCardButton: {
         display: "flex",
         color: "gray",
-        width: '270px',
+        width: '250px',
         padding: theme.spacing(1),
         margin: theme.spacing(1),
         backgroundColor: "#ebecf0",
@@ -26,9 +26,9 @@ export default makeStyles()((theme) => ({
     addListButton: {
         display: "flex",
         color: "white",
-        width: '270px',
+        width: '262px',
         padding: theme.spacing(1),
-        margin: theme.spacing(1),
+        margin: theme.spacing(-0.8,1,0,1),
         backgroundColor: "#0099e6",
         boxShadow: 'none',
         "&:hover": {

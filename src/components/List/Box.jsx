@@ -9,9 +9,8 @@ import useStyles from './styles'
 
 const Box = ({box}) => {
     const {classes} = useStyles()
-    console.log(box.title)
     return (
-        <>
+        <div>
             <Paper className={classes.root}>
                 <Title title={box.title}/>
                 {box.cards.map((card) => (
@@ -22,7 +21,7 @@ const Box = ({box}) => {
                 ))}
                 <AddSection boxId={box.id} type="card"/>
             </Paper>
-        </>
+        </div>
     )
 }
 

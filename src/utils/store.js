@@ -42,18 +42,18 @@
                 },
             ],
         },
-        // 'box-4': {
-        //     id: 'box-4',
-        //     title: 'Done',
-        //     cards: [
-        //         {
-        //           id: 1,
-        //           name: 'Helpdesk Call GG999',
-        //         },
-        //     ],
-        // },
+        'box-4': {
+            id: 'box-4',
+            title: 'Done',
+            cards: [
+                {
+                  id: 1,
+                  name: 'Helpdesk Call GG999',
+                },
+            ],
+        },
     },
-    boxIds: ['box-1','box-2','box-3'],
+    boxIds: ['box-1','box-2','box-3','box-4'],
 };
   
 export default data;
