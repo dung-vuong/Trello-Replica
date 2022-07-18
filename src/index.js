@@ -14,8 +14,6 @@ export const muiCache = createCache({
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <CacheProvider value={muiCache}>
-    <React.StrictMode>
       <App />
-    </React.StrictMode>
   </CacheProvider>
 );

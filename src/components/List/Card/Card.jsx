@@ -2,15 +2,22 @@ import React from 'react'
 import Paper from '@mui/material/Paper'
 
 import useStyles from './styles'
+import { Draggable } from 'react-beautiful-dnd'
 
-const Card = ({card}) => {
+const Card = ({card, index}) => {
     const {classes} = useStyles()
     return (
-        <div>
-            <Paper className={classes.paper}>
-                {card.name}
-            </Paper>
-        </div>
+        <Draggable draggableId={card.id} index={index}>
+            {(provided) => (
+                <div ref={provided.innerRef} {...provided.dragHandleProps} {...provided.draggableProps}>
+                    <Paper className={classes.paper}>
+                        {card.name}
+                    </Paper>
+                </div>
+            )}
+
+        </Draggable>
+
     )
 }
 

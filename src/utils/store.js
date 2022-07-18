@@ -5,11 +5,11 @@
             title: 'Todo',
             cards: [
                 {
-                  id: 1,
+                  id: '1',
                   name: 'Helpdesk Call AA999',
                 },
                 {
-                  id: 2,
+                  id: '2',
                   name: 'Helpdesk Call BB999',
                 },
             ],
@@ -19,11 +19,11 @@
             title: 'Development',
             cards: [
                 {
-                  id: 1,
+                  id: '3',
                   name: 'Helpdesk Call CC999',
                 },
                 {
-                  id: 2,
+                  id: '4',
                   name: 'Helpdesk Call DD999',
                 },
             ],
@@ -33,11 +33,11 @@
             title: 'Testing',
             cards: [
                 {
-                  id: 1,
+                  id: '5',
                   name: 'Helpdesk Call EE999',
                 },
                 {
-                  id: 2,
+                  id: '6',
                   name: 'Helpdesk Call FF999',
                 },
             ],
@@ -47,7 +47,7 @@
             title: 'Done',
             cards: [
                 {
-                  id: 1,
+                  id: '7',
                   name: 'Helpdesk Call GG999',
                 },
             ],
