@@ -7,7 +7,7 @@ const Title = ({title}) => {
     const {classes} = useStyles()
     return (
         <div className={classes.title}>
-            <Typography flexGrow={1}>
+            <Typography className={classes.weight} flexGrow={1}>
                 {title}
             </Typography>
             <MoreHorizOutlined/>

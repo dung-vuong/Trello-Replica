@@ -3,12 +3,13 @@ import { Paper } from '@mui/material'
 
 import Card from './Card/Card'
 import Title from './Title/Title'
-import AddCardSection from './AddCardSection/AddCardSection'
+import AddSection from './AddCardSection/AddSection'
 
 import useStyles from './styles'
 
 const Box = ({box}) => {
     const {classes} = useStyles()
+    console.log(box.title)
     return (
         <>
             <Paper className={classes.root}>
@@ -19,7 +20,7 @@ const Box = ({box}) => {
                         card={card}
                     />
                 ))}
-                <AddCardSection/>
+                <AddSection boxId={box.id} type="card"/>
             </Paper>
         </>
     )

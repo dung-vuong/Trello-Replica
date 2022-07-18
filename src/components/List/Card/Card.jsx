@@ -8,7 +8,7 @@ const Card = ({card}) => {
     return (
         <div>
             <Paper className={classes.paper}>
-                {card.title}
+                {card.name}
             </Paper>
         </div>
     )

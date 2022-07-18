@@ -5,12 +5,12 @@
             title: 'Todo',
             cards: [
                 {
-                  id: 'card-1',
-                  title: 'Helpdesk Call AA999',
+                  id: 1,
+                  name: 'Helpdesk Call AA999',
                 },
                 {
-                  id: 'card-2',
-                  title: 'Helpdesk Call BB999',
+                  id: 2,
+                  name: 'Helpdesk Call BB999',
                 },
             ],
         },
@@ -19,12 +19,12 @@
             title: 'Development',
             cards: [
                 {
-                  id: 'card-1',
-                  title: 'Helpdesk Call CC999',
+                  id: 1,
+                  name: 'Helpdesk Call CC999',
                 },
                 {
-                  id: 'card-2',
-                  title: 'Helpdesk Call DD999',
+                  id: 2,
+                  name: 'Helpdesk Call DD999',
                 },
             ],
         },
@@ -33,27 +33,27 @@
             title: 'Testing',
             cards: [
                 {
-                  id: 'card-1',
-                  title: 'Helpdesk Call EE999',
+                  id: 1,
+                  name: 'Helpdesk Call EE999',
                 },
                 {
-                  id: 'card-2',
-                  title: 'Helpdesk Call FF999',
+                  id: 2,
+                  name: 'Helpdesk Call FF999',
                 },
             ],
         },
-        'box-4': {
-            id: 'box-4',
-            title: 'Done',
-            cards: [
-                {
-                  id: 'card-1',
-                  title: 'Helpdesk Call GG999',
-                },
-            ],
-        },
+        // 'box-4': {
+        //     id: 'box-4',
+        //     title: 'Done',
+        //     cards: [
+        //         {
+        //           id: 1,
+        //           name: 'Helpdesk Call GG999',
+        //         },
+        //     ],
+        // },
     },
-    boxIds: ['box-1','box-2','box-3','box-4'],
+    boxIds: ['box-1','box-2','box-3'],
 };
   
-  export default data;
+export default data;
