@@ -16,7 +16,7 @@
 
 #### Use uuidv4 to generate a unique id
 - npm install uuid
-- 
+
 #### Manage the data in local storage:
 - Use localStorage.setItem and localStorage.getItem.
 - Use UseEffect to load and save the data into the local storage.
