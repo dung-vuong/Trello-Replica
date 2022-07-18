@@ -14,6 +14,12 @@
 #### Uses makeStyles for styling (because makeStyles is deprecated, not used in @mui/material so I added tss-react so I can do the same thing as before)
 - npm add tss-react
 
+#### Use uuidv4 to generate a unique id
+- npm install uuid
+
 #### Manage the data in local storage:
 - Use localStorage.setItem and localStorage.getItem.
 - Use UseEffect to load and save the data into the local storage.
+
+#### Use react-beautiful-dnd for drag and drop cards
+- npm install react-beautiful-dnd
