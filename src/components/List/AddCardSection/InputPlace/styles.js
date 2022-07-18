@@ -9,12 +9,4 @@ export default makeStyles()((theme) => ({
             backgroundColor: 'transparent'
         }
     },
-
-    inputCard: {
-        borderColor: "#4169e1",
-        borderWidth: "2px",
-        marginTop: "9px",
-        marginBottom: "3px",
-        padding: theme.spacing(0,1.5,0,1.5),
-    },
 }))

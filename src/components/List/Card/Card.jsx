@@ -11,6 +11,7 @@ const Card = ({card, index}) => {
             {(provided) => (
                 <div ref={provided.innerRef} {...provided.dragHandleProps} {...provided.draggableProps}>
                     <Paper className={classes.paper}>
+                        <div className={classes.bigDash}></div>
                         {card.name}
                     </Paper>
                 </div>

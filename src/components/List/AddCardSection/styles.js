@@ -21,6 +21,7 @@ export default makeStyles()((theme) => ({
         "&:hover": {
             backgroundColor: 'rgba(0,0,0,.1)',
             color: "black",
+            cursor: 'pointer'
         }
     },
     addListButton: {
@@ -29,10 +30,11 @@ export default makeStyles()((theme) => ({
         width: '262px',
         padding: theme.spacing(1),
         margin: theme.spacing(-0.8,1,0,1),
-        backgroundColor: "#0099e6",
+        backgroundColor: "hsla(0,0%,100%,.2)",
         boxShadow: 'none',
         "&:hover": {
-            backgroundColor: '#33bbff',
+            backgroundColor: 'hsla(0,0%,100%,.4)',
+            cursor: 'pointer'
         }
     }
 }))
