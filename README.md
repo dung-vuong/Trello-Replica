@@ -2,6 +2,9 @@
 
 # Try it now: https://trello-replica.vercel.app/
 
+![Screenshot (327)](https://user-images.githubusercontent.com/79184498/179663524-83a0713d-1260-4a78-840d-9d94fc6f9041.png)
+
+## ⬇️ What I have done ⬇️
 ### Create an exact replica of the following webapp https://trello-replica.web.app/
 ### The following features included:
 - Create new list
@@ -19,9 +22,9 @@
 #### Use uuidv4 to generate a unique id
 - npm install uuid
 
+#### Use react-beautiful-dnd for drag and drop cards
+- npm install react-beautiful-dnd
+
 #### Manage the data in local storage:
 - Use localStorage.setItem and localStorage.getItem.
 - Use UseEffect to load and save the data into the local storage.
-
-#### Use react-beautiful-dnd for drag and drop cards
-- npm install react-beautiful-dnd
