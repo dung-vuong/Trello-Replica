@@ -12,6 +12,8 @@
 - Drag-n-drop cards between lists
 - There are no API requests. You have to manage the data in local storage.
 
+## ⬇️ What I used ⬇️
+
 #### Uses @mui/material
 - npm install @mui/material @emotion/react @emotion/styled
 - npm install @mui/icons-material
