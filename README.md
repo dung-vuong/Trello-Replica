@@ -1,5 +1,7 @@
 # Trello Replica Clone
 
+# Try it now: https://trello-replica.vercel.app/
+
 ### Create an exact replica of the following webapp https://trello-replica.web.app/
 ### The following features included:
 - Create new list
