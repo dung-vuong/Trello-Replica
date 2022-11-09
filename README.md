@@ -34,3 +34,4 @@ https://user-images.githubusercontent.com/79184498/179664036-3bf1a23c-a67d-482b-
 #### Manage the data in local storage:
 - Use localStorage.setItem and localStorage.getItem.
 - Use UseEffect to load and save the data into the local storage.
+
